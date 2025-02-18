@@ -20,6 +20,7 @@
   "homepage": "https://github.com/manuflorenca/Gerador-QR-Code-para-Ecommerces#readme",
   "dependencies": {
     "chalk": "^5.4.1",
-    "prompt": "^1.3.0"
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
