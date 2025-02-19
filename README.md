@@ -49,11 +49,3 @@ markdown
 Copiar
 Editar
 
-### Explicações:
-
-1. **Tecnologias**: Descreve as ferramentas usadas no projeto.
-2. **Como Rodar o Projeto**: Passos detalhados para rodar o projeto localmente.
-3. **Exemplo de Saída**: Exemplos de como será exibido no terminal após escolher entre QR Code ou Senha.
-4. **Licença**: Uma breve menção de licença (se necessário, pode ser a MIT ou outra de sua escolha).
-
-Esse modelo pode ser adaptado conforme as necessidades do seu projeto.
