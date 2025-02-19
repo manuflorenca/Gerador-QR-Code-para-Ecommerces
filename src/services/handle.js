@@ -3,11 +3,16 @@ import chalk from "chalk";
 
 async function handle(err, result) {
   if (err) {
-    console.log("error on application");
+    console.log("Erro na aplicação");
     return;
   }
 
-  const isSmall = result.type == 2;
+  if (!result || !result.link) {
+    console.log("Link não encontrado no objeto result.");
+    return;
+  }
+
+  const isSmall = result.type === 2;
 
   qr.generate(result.link, { small: isSmall }, (qrcode) => {
     console.log(chalk.green("QR Code gerado com sucesso:\n"));
